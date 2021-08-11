@@ -3,6 +3,7 @@ import 'package:rflutter_alert/rflutter_alert.dart';
 import 'quiz_brain.dart';
 import 'login.dart';
 
+
 QuizBrain quizBrain = QuizBrain();
 
 void main() => runApp(Quizzler());
@@ -17,7 +18,8 @@ class Quizzler extends StatelessWidget {
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 10.0),
-            child: QuizPage(),
+            child: Login(),
+            
           ),
         ),
       ),
